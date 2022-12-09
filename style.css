@@ -1,31 +1,29 @@
-<html>
-     <nav>
-      
-      <li><a href="index.html">HOME </a> </li>
-<li><a href= "APP1.html"> APPS <a><li>
-  </nav>
-  
-  <head>   
-    <center>
-  <link rel="stylesheet" href="style.css">
-    <title> Amia's Website </title>
-      <link rel="icon" type="image/x-icon" href="https://toppng.com/public/uploads/thumbnail/studio-ghibli-icons1-0008-layer16-so-you-wanna-watch-studio-ghibli-icon-11562941157jkd69vdncf.png">
-  </head>
-  <body>
- 
- 
-<h1 style="font-family:verdana;"> Welcome to my website! </h1>
-     <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/N3P2ospQIGPu8hWkzIM8ki_NlyFwxMn2567GnRp_m3n/embed?nosource"></iframe>
-    
-    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/wSwvp_ImG6BvFtjWEvloQ54r6e9VI8YFtlBon8k-l9x/embed?nosource"></iframe>
-  
-    
-      
-      
-    </center>
-    </body>
+body {
+h1
+  color: #4E0250;
+  font-size: 40px;
+  text-shadow:2px 2px 2px #645986;
+  text-shadow-color: black;
 
+background-color: #ffe4e1;
+}
 
+nav{
+  list-style-type:none;
+  width: 100%
+}
 
+li{
+  display: incline;
+  padding: 15px;
+  float: right;
 
-</html>
+}
+li:hover {
+  background-color: #F4C1E8;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
