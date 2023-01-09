@@ -10,6 +10,7 @@ background-color: #ffe4e1;
 
 
 .navbar {
+  overflow: hidden;
   font-family: Gill Sans;
 }
 
@@ -28,7 +29,7 @@ background-color: #ffe4e1;
 }
 
 .Apps .appsbtn {
-    color: #4E0250;
+  color: #4E0250;
   font-size: 40px;
   text-shadow:2px 2px 2px #645986;
   text-shadow-color: black;
@@ -38,6 +39,7 @@ background-color: #ffe4e1;
   padding: 14px 16px;
   background-color: #ffe4e1;
   font-family: Gill Sans; 
+  margin: 0;
 }
 
 
