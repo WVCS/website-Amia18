@@ -8,22 +8,70 @@ h1
 background-color: #ffe4e1;
 }
 
-nav{
-  list-style-type:none;
-  width: 100%
+
+.navbar {
+  font-family: Gill Sans;
 }
 
-li{
-  display: incline;
-  padding: 15px;
+.navbar a {
   float: right;
-
-}
-li:hover {
-  background-color: #F4C1E8;
-}
-
-a{
-  text-decoration: none;
+  font-size: 40px;
   color: white;
+  padding: 14px 16px;
+  text-decoration: none;
 }
+
+
+.Apps {
+  float: right;
+  overflow: hidden;
+}
+
+.Apps .appsbtn {
+    color: #4E0250;
+  font-size: 40px;
+  text-shadow:2px 2px 2px #645986;
+  text-shadow-color: black;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #ffe4e1;
+  font-family: Gill Sans; 
+}
+
+
+.navbar a:hover, .Apps:hover .appsbtn {
+  background-color: pink;
+}
+
+
+.apps-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.apps-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.apps-content a:hover {
+  background-color: #ddd;
+}
+
+.Apps:hover .apps-content {
+  display: block;
+}
+
+
+
