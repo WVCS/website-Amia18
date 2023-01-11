@@ -27,18 +27,17 @@ h1
 }
 
 .Apps .appsbtn {
-  color: #4E0250;
   font-size: 40px;
   text-shadow:2px 2px 2px #645986;
   text-shadow-color: black;
   border: none;
   outline: none;
+  overflow: hidden;
   color: white;
   padding: 14px 16px;
-  overflow: hidden;
-  text-decoration: none;
-  font-family: Gill Sans; 
-  margin: 0;
+  background-color: inherit;
+  font-family: Gills San;
+  margin: 0
 }
 
 
